@@ -14,8 +14,18 @@
 
 ## JavaScript (React.js + Redux + Flow)
 ### Extensions
-
-To install the following extensions clone this repo and run:
+  
+`PKief.material-icon-theme`  
+`chenxsan.vscode-standardjs`  
+`capaj.vscode-standardjs-snippets`  
+`eamodio.gitlens`  
+`xabikos.ReactSnippets`  
+`abusaidm.html-snippets`  
+`CoenraadS.bracket-pair-colorizer`  
+`wayou.vscode-todo-highlight`  
+`robinbentley.sass-indented`  
+  
+To install all JavaScript extensions clone this repo and run:
 
 ```bash
 ruby install_extensions.rb js
@@ -23,17 +33,7 @@ ruby install_extensions.rb js
 or:
 ```bash
 ./install_js_extensions.sh
-```
-
-`PKief.material-icon-theme`
-`chenxsan.vscode-standardjs`
-`capaj.vscode-standardjs-snippets`
-`eamodio.gitlens`
-`xabikos.ReactSnippets`
-`abusaidm.html-snippets`
-`CoenraadS.bracket-pair-colorizer`
-`wayou.vscode-todo-highlight`
-`robinbentley.sass-indented`
+```  
 
 ### Config
 
@@ -93,17 +93,19 @@ or:
 
 ## Ruby on Rails
 ### Extensions
-
-```bash
-ruby install_extensions.rb js
-```
-or:
-```bash
-./install_js_extensions.sh
-```
-
-`bung87.rails`
-`rebornix.Ruby`
+  
+`bung87.rails`  
+`rebornix.Ruby`  
+  
+To install the following extensions clone this repo and run:
+  
+```bash  
+ruby install_extensions.rb js  
+```  
+or:  
+```bash  
+./install_js_extensions.sh  
+```  
 
 ### Config
 
@@ -117,7 +119,7 @@ code --uninstall-extension <extension>
 
 ## Automate installing extensions
 
-Script to automate install of multiple extensions
+Shell script to automate install of multiple extensions (without ruby...)
 
 ```bash
 EXTENSIONS=(
