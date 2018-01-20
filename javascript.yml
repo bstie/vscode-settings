@@ -1,0 +1,11 @@
+---
+extensions:
+  - PKief.material-icon-theme
+  - chenxsan.vscode-standardjs
+  - capaj.vscode-standardjs-snippets
+  - eamodio.gitlens
+  - xabikos.ReactSnippets
+  - abusaidm.html-snippets
+  - CoenraadS.bracket-pair-colorizer
+  - wayou.vscode-todo-highlight
+  - robinbentley.sass-indented
