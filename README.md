@@ -1,14 +1,26 @@
 # My favorite VSCode settings for different use cases
 
-## 1. For JavaScript (React.js + Redux + Flow)
-### 1.1 Extensions
+## Table of Contents
+
+- [JavaScript](#javascript-reactjs+redux+flow)
+  - [Extensions](#extensions)
+  - [Config](#config)
+- [Ruby on Rails](#ruby-on-rails)
+  - [Extensions](#extensions)
+  - [Config](#config)
+  - [Useful commands](#useful-commands)
+  - [Automate installing extensions](script-to-automate-install-of-multiple-extensions)
+
+
+## JavaScript (React.js + Redux + Flow)
+### Extensions
 `PKief.material-icon-theme`  
 `chenxsan.vscode-standardjs`   
 `eamodio.gitlens`  
 `xabikos.ReactSnippets`  
 `minhthai.vscode-todo-parser`    
 
-### 1.2 Config
+### Config
 
 <details>
 <summary>Show full config</summary>  
@@ -54,11 +66,11 @@
 
 </details>
 
-## 2. For Ruby on Rails
-### 2.1 Extensions
-### 2.2 Config
+## Ruby on Rails
+### Extensions
+### Config
 
-## 3. Usefull commands
+## Useful commands
 
 ```bash
 code --list-extensions  
@@ -66,7 +78,9 @@ code --install-extension <extension>
 code --uninstall-extension <extension>  
 ```
 
-## 4. Script to automate install of multiple extensions
+## Automate installing extensions  
+
+Script to automate install of multiple extensions
 
 ```bash
 EXTENSIONS=(
