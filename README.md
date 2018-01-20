@@ -13,12 +13,15 @@
 
 
 ## JavaScript (React.js + Redux + Flow)
-### Extensions
+### Extensions  
+
 `PKief.material-icon-theme`  
 `chenxsan.vscode-standardjs`   
 `eamodio.gitlens`  
 `xabikos.ReactSnippets`  
-`minhthai.vscode-todo-parser`    
+`abusaidm.html-snippets`  
+`CoenraadS.bracket-pair-colorizer`  
+`wayou.vscode-todo-highlight`  
 
 ### Config
 
@@ -38,18 +41,7 @@
 
     // JavaScript Linter  
     "standard.enable": true,  
-    "standard.autoFixOnSave": true,  
-
-    // TODOs  
-    "TodoParser": {  
-        "exclude": ["cpp", "c"],  
-        "include": ["js"],  
-        "folderExclude": ["node_modules", ".vscode"],  
-        //"only": ["sub-folder/sub-sub-folder"],  
-        "showInProblems": false,  
-        "markers": ["TODO:", "NOTE:", "REMINDER:", ["FIXME", "Warning"]],  
-        "autoDefaultMarkers": true  
-    },  
+    "standard.autoFixOnSave": true,
     
     // GitLens  
     "gitlens.advanced.messages": {  
@@ -67,6 +59,10 @@
 
 ## Ruby on Rails
 ### Extensions
+
+`bung87.rails`  
+`rebornix.Ruby`  
+
 ### Config
 
 ## Useful commands
