@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-- [JavaScript](#javascript-reactjs+redux+flow)
+- [JavaScript](#javascript-reactjs--redux--flow)
   - [Extensions](#extensions)
   - [Config](#config)
 - [Ruby on Rails](#ruby-on-rails)
-  - [Extensions](#extensions)
-  - [Config](#config)
-  - [Useful commands](#useful-commands)
-  - [Automate installing extensions](script-to-automate-install-of-multiple-extensions)
+  - [Extensions](#extensions-1)
+  - [Config](#config-1)
+- [Useful commands](#useful-commands)
+- [Automate installing extensions](automate-installing-extensions)
 
 
 ## JavaScript (React.js + Redux + Flow)
