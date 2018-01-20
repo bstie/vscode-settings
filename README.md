@@ -1,4 +1,4 @@
-# vscode-settings
+# My favorite VSCode settings for different use cases
 
 ## For JavaScript (React.js + Redux + Flow)
 
@@ -6,13 +6,16 @@
 
 ## Usefull commands
 
-`code --list-extensions`
-`code --install-extension <extension>`
-`code --uninstall-extension <extension>`
+```bash
+`code --list-extensions`  
+`code --install-extension <extension>`  
+`code --uninstall-extension <extension>`  
+```
 
 ## Script to automate install of multiple extensions
 
-`EXTENSIONS=(
+```bash
+EXTENSIONS=(
   "cssho.vscode-svgviewer" \
   "dbaeumer.vscode-eslint" \
   "EditorConfig.EditorConfig" \
@@ -33,7 +36,8 @@ do
       $VARIANT --install-extension $EXTENSION
     done
   fi
-done`
+done
+```
 
 (seen on: http://www.growingwiththeweb.com/2016/06/syncing-vscode-extensions.html)
 
