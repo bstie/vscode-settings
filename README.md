@@ -59,8 +59,11 @@ or:
     // Add final newline to each file
     "files.insertFinalNewline": true,
 
-    // Trim trailing white spaces on each line
-    "files.trimTrailingWhitespace": true,
+    // Trim trailing white spaces on each line (but don´t trim in markdown files)
+    "files.trimTrailingWhitespace": true,  
+    "[markdown]": {
+      "files.trimTrailingWhitespace": false
+    },
 
     // Theme
     "workbench.iconTheme": "material-icon-theme",
