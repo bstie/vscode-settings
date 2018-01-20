@@ -22,9 +22,8 @@
 
 ### Config
 
-<details>
-<summary>Show full config</summary>  
-
+```javascript
+{
     // General 
     "window.zoomLevel": 1, // for WQHD (2560x1440)  
 
@@ -63,8 +62,8 @@
         "suppressUpdateNotice": false,  
         "suppressWelcomeNotice": true  
     }  
-
-</details>
+}
+```
 
 ## Ruby on Rails
 ### Extensions
