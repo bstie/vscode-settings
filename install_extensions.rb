@@ -1,4 +1,5 @@
-#!/bin/ruby
+#!/usr/bin/ruby
+
 require 'yaml'
 
 ext_file = nil
