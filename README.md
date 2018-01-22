@@ -74,9 +74,27 @@ or:
     // JavaScript Linter
     "standard.enable": true,
     "standard.autoFixOnSave": true,
+    "standard.options": {
+      "parser": "babel-eslint",
+      "plugins": [
+        "flowtype"
+      ],
+      "ignore": [
+        "/flow-typed"
+      ],
+      "globals": [
+        "it",
+        "expect",
+        "beforeEach",
+        "describe",
+        "jest",
+        "fetch",
+        "URL"
+      ]
+    },
     
     // disable the javascript validation by vscode because we use standard
-    "javascript.validate.enable": false
+    "javascript.validate.enable": false,
 
     // GitLens
     "gitlens.advanced.messages": {
