@@ -24,6 +24,7 @@
 `CoenraadS.bracket-pair-colorizer`  
 `wayou.vscode-todo-highlight`  
 `robinbentley.sass-indented`  
+`gcazaciuc.vscode-flow-ide`  
   
 To install all JavaScript extensions clone this repo and run:
 
