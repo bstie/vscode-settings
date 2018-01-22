@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ruby ./install_extensions.rb js
+ruby ./install_extensions.rb rails
