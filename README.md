@@ -25,6 +25,7 @@
 `wayou.vscode-todo-highlight`  
 `robinbentley.sass-indented`  
 `gcazaciuc.vscode-flow-ide`  
+`NuclleaR.vscode-extension-auto-import`  
   
 To install all JavaScript extensions clone this repo and run:
 
