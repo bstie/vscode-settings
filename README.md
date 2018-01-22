@@ -74,6 +74,9 @@ or:
     // JavaScript Linter
     "standard.enable": true,
     "standard.autoFixOnSave": true,
+    
+    // disable the javascript validation by vscode because we use standard
+    "javascript.validate.enable": false
 
     // GitLens
     "gitlens.advanced.messages": {
