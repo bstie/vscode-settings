@@ -123,14 +123,14 @@ or:
 `bung87.rails`  
 `rebornix.Ruby`  
   
-To install the following extensions clone this repo and run:
+To install the rails related extensions clone this repo and run:
   
 ```bash  
-ruby install_extensions.rb js  
+ruby install_extensions.rb rails  
 ```  
 or:  
 ```bash  
-./install_js_extensions.sh  
+./install_rails_extensions.sh  
 ```  
 
 ### Config
